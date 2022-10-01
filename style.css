@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    list-style:none;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.overall{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    /*display flex so that every part can be arranged*/
+    display: flex;
+    justify-content: center;
+    /*everything will be center around*/
+    align-items: center;
+}
+.overall video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*cover to let it show fullscreen*/
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.overall .wrapper{
+    position: relative;
+    z-index:1;
+}
+.wrapper{
+    width:100%;
+    height:100vh;
+    text-align:center;
+    display:flex;
+}
+.sidebar{
+    width:20%;
+    background-color:#319fa1f3;
+}
+.sidebar a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size:18px;
+    letter-spacing: 4px;
+    padding:35px;
+    border:none;
+    display:list-item;
+}
+
+.sidebar a:hover{
+    background-color: #f3c38d;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+#websitetitle{
+    color: #f4ab57;
+    font-family: fantasy;
+    font-weight:400;
+    font-size:30px;
+    letter-spacing: 4px;
+    padding: 10px;
+    background-color: #1314348a;
+}
+.content{
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+}
+.content h2{
+    margin-top:180px;
+    color:rgb(250, 212, 155);
+    letter-spacing: 4px;
+    padding:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:33px;
+}
+.content a{
+    text-decoration: none;
+    display:inline-block;
+    color:rgb(250, 212, 155);
+    font-size:25px;
+    border:2px solid rgb(250, 212, 155);
+    padding:20px 70px;
+    border-radius:50px;
+    margin-top:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content p{
+    color: #fff;
+    letter-spacing: 4px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.background-video{
+    position:relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
