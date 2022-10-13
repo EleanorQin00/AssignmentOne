@@ -69,23 +69,23 @@
     width:800px;
     margin-left:auto;
     margin-right:auto;
-    margin-top:20px;
+    margin-top:90px;
 }
 .content h2{
     margin-top:180px;
-    color:rgb(250, 212, 155);
+    color:rgb(237, 169, 68);
     letter-spacing: 4px;
     padding:25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:33px;
+    font-size:40px;
 }
 .content a{
     text-decoration: none;
     display:inline-block;
-    color:rgb(250, 212, 155);
+    color:rgb(237, 169, 68);
     font-size:25px;
-    border:2px solid rgb(250, 212, 155);
-    padding:20px 70px;
+    border:2px solid rgb(237, 169, 68);
+    padding:25px 70px;
     border-radius:50px;
     margin-top:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
