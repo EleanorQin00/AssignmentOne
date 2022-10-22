@@ -88,3 +88,31 @@
     justify-content: center;
     overflow:hidden;
 }
+
+
+/* s */
+@media screen and (max-width:992px){
+   
+    .sidebar{
+        width: 25%;
+    }
+    .content{margin-top: 45px;width: 500px;}
+    .content p{font-size: 25px;}
+   
+}
+/* xs */
+@media screen and (max-width:768px){
+    #websitetitle{
+        font-size: 22px;
+        height: 80px;
+    }
+    .sidebar{
+        width: 30%;
+    }
+    .sidebar a{
+        font-size: 15px;
+        height: 80px;
+    }
+   .content{margin-top: 30px;width: 440px;}
+   .content p{font-size: 20px;padding: 30px;}
+}

@@ -105,3 +105,51 @@
     justify-content: center;
     overflow:hidden;
 }
+
+@media (min-aspect-ratio: 16/9) {
+    .background-video{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .background-video{
+        width:auto;
+        height:100%;
+    }
+}
+
+/* s */
+@media screen and (max-width:992px){
+   
+    .sidebar{
+        width: 25%;
+    }
+   
+}
+/* xs */
+@media screen and (max-width:768px){
+    #websitetitle{
+        font-size: 22px;
+        height: 80px;
+    }
+    .sidebar{
+        width: 30%;
+    }
+    .sidebar a{
+        font-size: 15px;
+        height: 80px;
+    }
+    .content h2{
+    padding: 25px;
+    font-size: 25px;
+    margin-top: 130px;
+    }
+    .content a{
+    font-size: 20px;
+    padding: 15px 35px;
+    margin-top: 15px;
+    width: 225px;
+    }
+}
